@@ -28,4 +28,4 @@ xpack.security.transport.ssl:
 ```
 10. Restart elasticsearch: `sudo systemctl restart elasticsearch`
 11. Create `weather-data` index: `curl -k -u "elastic:your-password" -X PUT "http://localhost:9200/weather-data?pretty"`
-12. Once you have redirected the data from NiFi you can search the index like this: `curl -u "elastic:t-hN0uP7d*VR0dJMhPTZ" -X GET "http://localhost:9200/weather-data/_search?q=name:Gasteiz&pretty`
+12. Once you have redirected the data from NiFi you can search the index like this: `curl -u "elastic:t-hN0uP7d*VR0dJMhPTZ" -X GET "http://localhost:9200/weather-data/_search?q=name:Gasteiz&pretty"`
